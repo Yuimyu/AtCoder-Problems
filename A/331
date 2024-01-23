@@ -1,0 +1,28 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{ 
+   int M, D, y, m, d;
+
+   cin>>M>>D>>y>>m>>d;
+
+   d+=1;
+
+    if(d>D)
+   {
+        d-=D;
+        m+=1;
+   }
+
+   if(m>M)
+    {
+        m-=M;
+        y+=1;
+    }
+
+   cout<<y<<" "<<m<<" "<<d;
+
+    return 0;
+}
