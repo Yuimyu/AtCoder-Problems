@@ -1,0 +1,23 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{ 
+    int b;
+    int g;
+
+    cin>>b>>g;
+
+    if(b > g)
+    {
+        cout << "Bat";
+    }
+
+    if(b < g)
+    {
+        cout << "Glove";
+    }
+
+    return 0;
+}
